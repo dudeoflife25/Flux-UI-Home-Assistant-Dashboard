@@ -1,0 +1,498 @@
+area,domain,placeholder,your_entity,notes,used_in,files
+attic,sensor,sensor.attic_humidity,,,2,dashboard/shared/cards/rooms/attic-card-mobile.yaml dashboard/shared/cards/rooms/attic-card-tablet.yaml
+attic,sensor,sensor.attic_temperature,,,2,dashboard/shared/cards/rooms/attic-card-mobile.yaml dashboard/shared/cards/rooms/attic-card-tablet.yaml
+attic,sensor,sensor.doors_atc_count,,,2,dashboard/shared/cards/rooms/attic-card-mobile.yaml dashboard/shared/cards/rooms/attic-card-tablet.yaml
+attic,sensor,sensor.lights_atc_count,,,2,dashboard/shared/cards/rooms/attic-card-mobile.yaml dashboard/shared/cards/rooms/attic-card-tablet.yaml
+baby-room,binary_sensor,binary_sensor.door_sensor_br_contact,,,5,dashboard/mobile/views/10-baby-room.yaml dashboard/shared/cards/individual-rooms/baby-room/baby-room-open-entities-card.yaml dashboard/shared/cards/rooms/baby-room-card-mobile.yaml dashboard/shared/cards/rooms/baby-room-card-tablet.yaml dashboard/tablet/views/12-baby-room.yaml
+baby-room,binary_sensor,binary_sensor.left_window_sensor_br_contact,,,1,dashboard/shared/cards/individual-rooms/baby-room/baby-room-open-entities-card.yaml
+baby-room,binary_sensor,binary_sensor.motion_sensor_br_occupancy,,,1,dashboard/shared/cards/individual-rooms/baby-room/baby-room-details-card.yaml
+baby-room,binary_sensor,binary_sensor.right_window_sensor_br_contact,,,1,dashboard/shared/cards/individual-rooms/baby-room/baby-room-open-entities-card.yaml
+baby-room,climate,climate.baby_room,,,3,dashboard/shared/cards/individual-rooms/baby-room/baby-room-climate-card.yaml dashboard/shared/cards/rooms/baby-room-card-mobile.yaml dashboard/shared/cards/rooms/baby-room-card-tablet.yaml
+baby-room,group,group.windows_br,,,5,dashboard/mobile/views/10-baby-room.yaml dashboard/shared/cards/individual-rooms/baby-room/baby-room-open-entities-card.yaml dashboard/shared/cards/rooms/baby-room-card-mobile.yaml dashboard/shared/cards/rooms/baby-room-card-tablet.yaml dashboard/tablet/views/12-baby-room.yaml
+baby-room,light,light.lights_br,,,1,dashboard/shared/cards/individual-rooms/baby-room/baby-room-entities-card.yaml
+baby-room,light,light.lights_br_scene,,,2,dashboard/shared/cards/rooms/baby-room-card-mobile.yaml dashboard/shared/cards/rooms/baby-room-card-tablet.yaml
+baby-room,sensor,sensor.baby_room_climate_mode,,,1,dashboard/shared/cards/individual-rooms/baby-room/baby-room-climate-card.yaml
+baby-room,sensor,sensor.baby_room_humidity,,,4,dashboard/shared/cards/individual-rooms/baby-room/baby-room-climate-card.yaml dashboard/shared/cards/individual-rooms/baby-room/baby-room-details-card.yaml dashboard/shared/cards/rooms/baby-room-card-mobile.yaml dashboard/shared/cards/rooms/baby-room-card-tablet.yaml
+baby-room,sensor,sensor.baby_room_temperature,,,3,dashboard/shared/cards/individual-rooms/baby-room/baby-room-details-card.yaml dashboard/shared/cards/rooms/baby-room-card-mobile.yaml dashboard/shared/cards/rooms/baby-room-card-tablet.yaml
+baby-room,sensor,sensor.doors_br_count,,,2,dashboard/shared/cards/rooms/baby-room-card-mobile.yaml dashboard/shared/cards/rooms/baby-room-card-tablet.yaml
+baby-room,sensor,sensor.lights_br_count,,,3,dashboard/shared/cards/individual-rooms/baby-room/baby-room-entities-card.yaml dashboard/shared/cards/rooms/baby-room-card-mobile.yaml dashboard/shared/cards/rooms/baby-room-card-tablet.yaml
+baby-room,sensor,sensor.windows_br_count,,,2,dashboard/shared/cards/rooms/baby-room-card-mobile.yaml dashboard/shared/cards/rooms/baby-room-card-tablet.yaml
+baby-room,switch,switch.adaptive_lighting_baby_room,,,1,dashboard/shared/cards/individual-rooms/baby-room/baby-room-paper-row-card.yaml
+baby-room,switch,switch.baby_camera_switch_br,,,1,dashboard/shared/cards/individual-rooms/baby-room/baby-room-entities-card.yaml
+baby-room,switch,switch.other_switch_br,,,1,dashboard/shared/cards/individual-rooms/baby-room/baby-room-entities-card.yaml
+camera,automation,automation.driveway_camera_person_notification,,,2,dashboard/shared/cards/camera/driveway-card-with-chips.yaml dashboard/shared/cards/toggles-card.yaml
+camera,automation,automation.driveway_camera_vehicle_notification,,,2,dashboard/shared/cards/camera/driveway-card-with-chips.yaml dashboard/shared/cards/toggles-card.yaml
+camera,automation,automation.living_area_automation_toggle,,,1,dashboard/shared/cards/camera/living-area-card-with-chips.yaml
+camera,button,button.active,,,3,dashboard/mobile/views/01-overview.yaml dashboard/mobile/views/02-rooms.yaml dashboard/mobile/views/05-camera.yaml
+camera,camera,camera.left_walkway_camera_fluent,,,1,dashboard/shared/cards/camera/left-walkway-card.yaml
+camera,camera,camera.right_backyard_camera_clear,,,1,dashboard/shared/cards/camera/backyard-card.yaml
+camera,camera,camera.right_driveway_camera_clear,,,1,dashboard/shared/cards/camera/driveway-card.yaml
+camera,camera,camera.right_walkway_camera_clear,,,1,dashboard/shared/cards/camera/right-walkway-card.yaml
+camera,camera,camera.road_camera_clear,,,1,dashboard/shared/cards/camera/road-card.yaml
+camera,sensor,sensor.backyard_camera_status,,,2,dashboard/mobile/views/05-camera.yaml dashboard/tablet/views/04-camera.yaml
+camera,sensor,sensor.garage_camera_status,,,3,dashboard/mobile/views/05-camera.yaml dashboard/shared/cards/notification-panel-card.yaml dashboard/tablet/views/04-camera.yaml
+camera,sensor,sensor.living_area_camera_status,,,1,dashboard/mobile/views/05-camera.yaml
+camera,sensor,sensor.right_walkway_camera_status,,,2,dashboard/mobile/views/05-camera.yaml dashboard/tablet/views/04-camera.yaml
+camera,sensor,sensor.road_camera_status,,,2,dashboard/mobile/views/05-camera.yaml dashboard/tablet/views/04-camera.yaml
+driveway,binary_sensor,binary_sensor.presence_sensor_outdoor,,,1,dashboard/shared/cards/individual-rooms/driveway/driveway-details-card.yaml
+driveway,group,group.doors_drw,,,5,dashboard/mobile/views/17-driveway.yaml dashboard/shared/cards/individual-rooms/driveway/driveway-open-entities-card.yaml dashboard/shared/cards/rooms/driveway-card-mobile.yaml dashboard/shared/cards/rooms/driveway-card-tablet.yaml dashboard/tablet/views/19-driveway.yaml
+driveway,light,light.lights_drw,,,2,dashboard/shared/cards/rooms/driveway-card-mobile.yaml dashboard/shared/cards/rooms/driveway-card-tablet.yaml
+driveway,sensor,sensor.doors_drw_count,,,2,dashboard/shared/cards/rooms/driveway-card-mobile.yaml dashboard/shared/cards/rooms/driveway-card-tablet.yaml
+driveway,sensor,sensor.lights_drw_count,,,3,dashboard/shared/cards/individual-rooms/driveway/driveway-lights-card.yaml dashboard/shared/cards/rooms/driveway-card-mobile.yaml dashboard/shared/cards/rooms/driveway-card-tablet.yaml
+driveway,switch,switch.adaptive_lighting_outdoor,,,1,dashboard/shared/cards/individual-rooms/driveway/driveway-paper-row-card.yaml
+entrance,automation,automation.room_presence_entrance,,,1,dashboard/shared/cards/individual-rooms/entrance/entrance-paper-row-card.yaml
+entrance,binary_sensor,binary_sensor.presence_sensor_entrance,,,1,dashboard/shared/cards/individual-rooms/entrance/entrance-details-card.yaml
+entrance,light,light.entrance_table_led,,,1,dashboard/shared/cards/individual-rooms/entrance/entrance-lights-card.yaml
+entrance,light,light.lights_etr,,,1,dashboard/shared/cards/individual-rooms/entrance/entrance-lights-card.yaml
+entrance,light,light.lights_etr_all,,,2,dashboard/shared/cards/rooms/entrance-card-mobile.yaml dashboard/shared/cards/rooms/entrance-card-tablet.yaml
+entrance,sensor,sensor.doors_etr_count,,,2,dashboard/shared/cards/rooms/entrance-card-mobile.yaml dashboard/shared/cards/rooms/entrance-card-tablet.yaml
+entrance,sensor,sensor.lights_etr_count,,,3,dashboard/shared/cards/individual-rooms/entrance/entrance-lights-card.yaml dashboard/shared/cards/rooms/entrance-card-mobile.yaml dashboard/shared/cards/rooms/entrance-card-tablet.yaml
+garage,automation,automation.room_presence_garage,,,1,dashboard/shared/cards/individual-rooms/garage/garage-paper-row-card.yaml
+garage,binary_sensor,binary_sensor.left_outdoor_window_sensor_grg_contact,,,1,dashboard/shared/cards/individual-rooms/garage/garage-open-entities-card.yaml
+garage,binary_sensor,binary_sensor.left_rear_window_sensor_grg_contact,,,1,dashboard/shared/cards/individual-rooms/garage/garage-open-entities-card.yaml
+garage,binary_sensor,binary_sensor.presence_sensor_garage,,,1,dashboard/shared/cards/individual-rooms/garage/garage-details-card.yaml
+garage,binary_sensor,binary_sensor.rear_door_sensor_grg_contact,,,1,dashboard/shared/cards/individual-rooms/garage/garage-open-entities-card.yaml
+garage,binary_sensor,binary_sensor.right_outdoor_window_sensor_grg_contact,,,1,dashboard/shared/cards/individual-rooms/garage/garage-open-entities-card.yaml
+garage,binary_sensor,binary_sensor.right_rear_window_sensor_grg_contact,,,1,dashboard/shared/cards/individual-rooms/garage/garage-open-entities-card.yaml
+garage,group,group.doors_grg,,,4,dashboard/mobile/views/07-garage.yaml dashboard/shared/cards/notification-panel-card.yaml dashboard/shared/cards/rooms/garage-card-mobile.yaml dashboard/shared/cards/rooms/garage-card-tablet.yaml
+garage,group,group.windows_grg,,,3,dashboard/mobile/views/07-garage.yaml dashboard/shared/cards/rooms/garage-card-mobile.yaml dashboard/shared/cards/rooms/garage-card-tablet.yaml
+garage,sensor,sensor.doors_grg_count,,,2,dashboard/shared/cards/rooms/garage-card-mobile.yaml dashboard/shared/cards/rooms/garage-card-tablet.yaml
+garage,sensor,sensor.garage_humidity,,,3,dashboard/shared/cards/individual-rooms/garage/garage-details-card.yaml dashboard/shared/cards/rooms/garage-card-mobile.yaml dashboard/shared/cards/rooms/garage-card-tablet.yaml
+garage,sensor,sensor.garage_temperature,,,3,dashboard/shared/cards/individual-rooms/garage/garage-details-card.yaml dashboard/shared/cards/rooms/garage-card-mobile.yaml dashboard/shared/cards/rooms/garage-card-tablet.yaml
+garage,sensor,sensor.lights_grg_count,,,3,dashboard/shared/cards/individual-rooms/garage/garage-lights-card.yaml dashboard/shared/cards/rooms/garage-card-mobile.yaml dashboard/shared/cards/rooms/garage-card-tablet.yaml
+garage,sensor,sensor.windows_grg_count,,,2,dashboard/shared/cards/rooms/garage-card-mobile.yaml dashboard/shared/cards/rooms/garage-card-tablet.yaml
+garage,switch,switch.lights_grg,,,2,dashboard/shared/cards/rooms/garage-card-mobile.yaml dashboard/shared/cards/rooms/garage-card-tablet.yaml
+general,automation,automation.room_presence,,,1,dashboard/shared/templates/streamline.yaml
+general,binary_sensor,binary_sensor.house_maintenance_chip_card,,,1,dashboard/shared/cards/notification-panel-card.yaml
+general,calendar,calendar.birthdays,,,1,dashboard/mobile/views/01-overview.yaml
+general,calendar,calendar.christina,,,3,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/01-overview.yaml dashboard/tablet/views/05-calendar.yaml
+general,calendar,calendar.email,,,3,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/01-overview.yaml dashboard/tablet/views/05-calendar.yaml
+general,calendar,calendar.house_maintenance,,,3,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/01-overview.yaml dashboard/tablet/views/05-calendar.yaml
+general,calendar,calendar.new_zealand_holidays,,,3,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/01-overview.yaml dashboard/tablet/views/05-calendar.yaml
+general,cover,cover.close_cover,,,1,dashboard/shared/templates/streamline.yaml
+general,cover,cover.open_cover,,,1,dashboard/shared/templates/streamline.yaml
+general,cover,cover.set_cover_position,,,1,dashboard/shared/templates/streamline.yaml
+general,cover,cover.stop_cover,,,1,dashboard/shared/templates/streamline.yaml
+general,device_tracker,device_tracker.christina,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/02-notifications.yaml
+general,device_tracker,device_tracker.rey_s_phone,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/02-notifications.yaml
+general,group,group.all_curtains,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/02-notifications.yaml
+general,group,group.all_fans,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/02-notifications.yaml
+general,group,group.all_light_switches,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/02-notifications.yaml
+general,group,group.all_windows,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/02-notifications.yaml
+general,group,group.external_doors,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/02-notifications.yaml
+general,group,group.towel_switches,,,1,dashboard/shared/cards/notification-panel-card.yaml
+general,input_boolean,input_boolean.baby_room_occupancy,,,1,dashboard/shared/cards/toggles-card.yaml
+general,input_boolean,input_boolean.guest_mode,,,2,dashboard/mobile/views/01-overview.yaml dashboard/shared/cards/notification-panel-card.yaml
+general,input_boolean,input_boolean.master_bedroom_occupancy,,,1,dashboard/shared/cards/toggles-card.yaml
+general,input_boolean,input_boolean.multiple_guest_room_occupancy,,,1,dashboard/shared/cards/toggles-card.yaml
+general,input_boolean,input_boolean.play_room_occupancy,,,1,dashboard/shared/cards/toggles-card.yaml
+general,input_boolean,input_boolean.recycle,,,1,dashboard/shared/cards/notification-panel-card.yaml
+general,input_boolean,input_boolean.room_dynamic_scene,,,1,dashboard/shared/templates/streamline.yaml
+general,input_boolean,input_boolean.room_toggle_one,,,1,dashboard/tablet/views/01-overview.yaml
+general,input_boolean,input_boolean.room_toggle_one_mobile,,,1,dashboard/mobile/views/02-rooms.yaml
+general,input_boolean,input_boolean.room_toggle_three,,,1,dashboard/tablet/views/01-overview.yaml
+general,input_boolean,input_boolean.room_toggle_three_mobile,,,1,dashboard/mobile/views/02-rooms.yaml
+general,input_boolean,input_boolean.room_toggle_two,,,1,dashboard/tablet/views/01-overview.yaml
+general,input_boolean,input_boolean.room_toggle_two_mobile,,,1,dashboard/mobile/views/02-rooms.yaml
+general,input_boolean,input_boolean.rubbish,,,1,dashboard/shared/cards/notification-panel-card.yaml
+general,input_boolean,input_boolean.single_guest_room_occupancy,,,1,dashboard/shared/cards/toggles-card.yaml
+general,input_text,input_text.room_dynamic_scene_active,,,1,dashboard/shared/templates/streamline.yaml
+general,input_text,input_text.set_value,,,1,dashboard/shared/templates/streamline.yaml
+general,light,light.all_lights,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/02-notifications.yaml
+general,light,light.all_lights_for_count_only,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/02-notifications.yaml
+general,media_player,media_player.spotify,,,1,dashboard/tablet/views/01-overview.yaml
+general,media_player,media_player.spotify_reynaldi_sutrisno,,,1,dashboard/mobile/views/01-overview.yaml
+general,person,person.christina,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/01-overview.yaml
+general,person,person.rey,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/01-overview.yaml
+general,script,script.start_sprinkler_timer,,,1,dashboard/shared/templates/streamline.yaml
+general,script,script.toggle_or_apply_dynamic_scene,,,1,dashboard/shared/templates/streamline.yaml
+general,sensor,sensor.active_notification_count,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/shared/alert-chips.yaml
+general,sensor,sensor.christina_s_phone,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/02-notifications.yaml
+general,sensor,sensor.disabled_driveway_camera_count,,,1,dashboard/shared/cards/toggles-card.yaml
+general,sensor,sensor.disabled_presence_automation_count,,,1,dashboard/shared/cards/toggles-card.yaml
+general,sensor,sensor.disabled_room_occupancy_count,,,1,dashboard/shared/cards/toggles-card.yaml
+general,sensor,sensor.dryer_switch_lr_power,,,1,dashboard/shared/cards/notification-panel-card.yaml
+general,sensor,sensor.forecast_cloud_coverage_next_2h,,,1,dashboard/mobile/views/01-overview.yaml
+general,sensor,sensor.forecast_good_drying_next_2h,,,1,dashboard/mobile/views/01-overview.yaml
+general,sensor,sensor.forecast_rain_next_2h,,,1,dashboard/mobile/views/01-overview.yaml
+general,sensor,sensor.forecast_uv_next_2h,,,1,dashboard/mobile/views/01-overview.yaml
+general,sensor,sensor.forecast_wind_next_2h,,,1,dashboard/mobile/views/01-overview.yaml
+general,sensor,sensor.geonet_nz_quakes_37_6421739_175_527482,,,1,dashboard/tablet/shared/alert-chips.yaml
+general,sensor,sensor.house_average_temperature,,,1,dashboard/shared/cards/climate-graph-card.yaml
+general,sensor,sensor.laundry_delay_time_remaining,,,1,dashboard/shared/cards/notification-panel-card.yaml
+general,sensor,sensor.laundry_machine_state,,,1,dashboard/shared/cards/notification-panel-card.yaml
+general,sensor,sensor.laundry_time_remaining_friendly,,,1,dashboard/shared/cards/notification-panel-card.yaml
+general,sensor,sensor.low_battery_count,,,1,dashboard/shared/cards/notification-panel-card.yaml
+general,sensor,sensor.rey_s_phone,,,2,dashboard/mobile/views/01-overview.yaml dashboard/tablet/views/02-notifications.yaml
+general,timer,timer.dyson_charger,,,1,dashboard/shared/cards/notification-panel-card.yaml
+general,timer,timer.exhaust_fans,,,1,dashboard/shared/cards/notification-panel-card.yaml
+general,timer,timer.heated_towel_rails,,,1,dashboard/shared/cards/notification-panel-card.yaml
+general,timer,timer.rice_cooker,,,1,dashboard/shared/cards/notification-panel-card.yaml
+general,weather,weather.forecast_home,,,1,dashboard/shared/templates/streamline.yaml
+guest-bathroom,binary_sensor,binary_sensor.bottom_window_sensor_gbrt_contact,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-open-entities-card.yaml
+guest-bathroom,binary_sensor,binary_sensor.presence_active_gbr,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-paper-row-card.yaml
+guest-bathroom,binary_sensor,binary_sensor.presence_sensor_guest_bathroom,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-details-card.yaml
+guest-bathroom,binary_sensor,binary_sensor.top_window_sensor_gbrt_contact,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-open-entities-card.yaml
+guest-bathroom,binary_sensor,binary_sensor.window_sensor_gbrb_contact,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-open-entities-card.yaml
+guest-bathroom,fan,fan.guest_bathroom_fan,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-entities-card.yaml
+guest-bathroom,fan,fan.guest_bathroom_vanity_fan,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-entities-card.yaml
+guest-bathroom,group,group.guest_bathroom_fans,,,2,dashboard/shared/cards/rooms/guest-bathroom-card-mobile.yaml dashboard/shared/cards/rooms/guest-bathroom-card-tablet.yaml
+guest-bathroom,group,group.windows_gbr,,,4,dashboard/mobile/views/15-guest-bathroom.yaml dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-open-entities-card.yaml dashboard/shared/cards/rooms/guest-bathroom-card-mobile.yaml dashboard/shared/cards/rooms/guest-bathroom-card-tablet.yaml
+guest-bathroom,light,light.lights_gbr,,,2,dashboard/shared/cards/rooms/guest-bathroom-card-mobile.yaml dashboard/shared/cards/rooms/guest-bathroom-card-tablet.yaml
+guest-bathroom,light,light.lights_gbrb,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-entities-card.yaml
+guest-bathroom,light,light.lights_gbrv,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-entities-card.yaml
+guest-bathroom,script,script.toggle_presence_sensor_gbr,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-paper-row-card.yaml
+guest-bathroom,sensor,sensor.fans_gbr_count,,,2,dashboard/shared/cards/rooms/guest-bathroom-card-mobile.yaml dashboard/shared/cards/rooms/guest-bathroom-card-tablet.yaml
+guest-bathroom,sensor,sensor.guest_bathroom_humidity,,,3,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-details-card.yaml dashboard/shared/cards/rooms/guest-bathroom-card-mobile.yaml dashboard/shared/cards/rooms/guest-bathroom-card-tablet.yaml
+guest-bathroom,sensor,sensor.guest_bathroom_temperature,,,3,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-details-card.yaml dashboard/shared/cards/rooms/guest-bathroom-card-mobile.yaml dashboard/shared/cards/rooms/guest-bathroom-card-tablet.yaml
+guest-bathroom,sensor,sensor.lights_gbr_count,,,3,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-entities-card.yaml dashboard/shared/cards/rooms/guest-bathroom-card-mobile.yaml dashboard/shared/cards/rooms/guest-bathroom-card-tablet.yaml
+guest-bathroom,sensor,sensor.windows_gbr_count,,,2,dashboard/shared/cards/rooms/guest-bathroom-card-mobile.yaml dashboard/shared/cards/rooms/guest-bathroom-card-tablet.yaml
+guest-bathroom,switch,switch.guest_bathroom_mirror_light,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-entities-card.yaml
+guest-bathroom,switch,switch.network_switch_gbrv,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-entities-card.yaml
+guest-bathroom,switch,switch.other_switch_gbrv,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-entities-card.yaml
+guest-bathroom,switch,switch.towel_switch_gbrb,,,1,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-entities-card.yaml
+hallway,binary_sensor,binary_sensor.left_window_sensor_hw_contact,,,1,dashboard/shared/cards/individual-rooms/hallway/hallway-open-entities-card.yaml
+hallway,binary_sensor,binary_sensor.motion_sensors_hallway,,,1,dashboard/shared/cards/individual-rooms/hallway/hallway-details-card.yaml
+hallway,binary_sensor,binary_sensor.right_window_sensor_hw_contact,,,1,dashboard/shared/cards/individual-rooms/hallway/hallway-open-entities-card.yaml
+hallway,group,group.windows_hw,,,4,dashboard/mobile/views/18-hallway.yaml dashboard/shared/cards/individual-rooms/hallway/hallway-open-entities-card.yaml dashboard/shared/cards/rooms/hallway-card-mobile.yaml dashboard/shared/cards/rooms/hallway-card-tablet.yaml
+hallway,light,light.lights_hw,,,3,dashboard/shared/cards/individual-rooms/hallway/hallway-lights-card.yaml dashboard/shared/cards/rooms/hallway-card-mobile.yaml dashboard/shared/cards/rooms/hallway-card-tablet.yaml
+hallway,sensor,sensor.doors_hw_count,,,2,dashboard/shared/cards/rooms/hallway-card-mobile.yaml dashboard/shared/cards/rooms/hallway-card-tablet.yaml
+hallway,sensor,sensor.lights_hw_count,,,3,dashboard/shared/cards/individual-rooms/hallway/hallway-lights-card.yaml dashboard/shared/cards/rooms/hallway-card-mobile.yaml dashboard/shared/cards/rooms/hallway-card-tablet.yaml
+hallway,sensor,sensor.windows_hw_count,,,2,dashboard/shared/cards/rooms/hallway-card-mobile.yaml dashboard/shared/cards/rooms/hallway-card-tablet.yaml
+hallway,switch,switch.adaptive_lighting_hallway,,,1,dashboard/shared/cards/individual-rooms/hallway/hallway-paper-row-card.yaml
+irrigation,sensor,sensor.average_backyard_soil_moisture,,,2,dashboard/shared/cards/individual-rooms/irrigation/backyard-card.yaml dashboard/shared/cards/notification-panel-card.yaml
+irrigation,sensor,sensor.average_backyard_soil_temperature,,,1,dashboard/shared/cards/individual-rooms/irrigation/backyard-card.yaml
+irrigation,sensor,sensor.average_driveway_soil_moisture,,,2,dashboard/shared/cards/individual-rooms/irrigation/driveway-card.yaml dashboard/shared/cards/notification-panel-card.yaml
+irrigation,sensor,sensor.average_driveway_soil_temperature,,,1,dashboard/shared/cards/individual-rooms/irrigation/driveway-card.yaml
+irrigation,sensor,sensor.backyard_water_tap,,,1,dashboard/shared/cards/individual-rooms/irrigation/backyard-card.yaml
+irrigation,sensor,sensor.backyard_water_tap_flow,,,1,dashboard/shared/cards/individual-rooms/irrigation/backyard-card.yaml
+irrigation,sensor,sensor.backyard_water_tap_status,,,1,dashboard/shared/cards/individual-rooms/irrigation/backyard-card.yaml
+irrigation,sensor,sensor.current_water_restriction,,,1,dashboard/shared/cards/individual-rooms/irrigation/irrigation-details-card.yaml
+irrigation,sensor,sensor.current_water_restriction_description,,,1,dashboard/shared/cards/individual-rooms/irrigation/irrigation-details-card.yaml
+irrigation,sensor,sensor.driveway_water_tap,,,1,dashboard/shared/cards/individual-rooms/irrigation/driveway-card.yaml
+irrigation,sensor,sensor.driveway_water_tap_flow,,,1,dashboard/shared/cards/individual-rooms/irrigation/driveway-card.yaml
+irrigation,sensor,sensor.driveway_water_tap_status,,,1,dashboard/shared/cards/individual-rooms/irrigation/driveway-card.yaml
+irrigation,sensor,sensor.right_walkway_water_tap,,,1,dashboard/shared/cards/individual-rooms/irrigation/right-walkway-card.yaml
+irrigation,sensor,sensor.right_walkway_water_tap_flow,,,1,dashboard/shared/cards/individual-rooms/irrigation/right-walkway-card.yaml
+irrigation,sensor,sensor.right_walkway_water_tap_status,,,1,dashboard/shared/cards/individual-rooms/irrigation/right-walkway-card.yaml
+irrigation,switch,switch.backyard_water_tap,,,1,dashboard/shared/cards/individual-rooms/irrigation/backyard-card.yaml
+irrigation,switch,switch.driveway_water_tap,,,2,dashboard/shared/cards/individual-rooms/irrigation/driveway-card.yaml dashboard/shared/cards/notification-panel-card.yaml
+irrigation,switch,switch.right_walkway_water_tap,,,1,dashboard/shared/cards/individual-rooms/irrigation/right-walkway-card.yaml
+irrigation,timer,timer.backyard_sprinkler_timer,,,2,dashboard/shared/cards/individual-rooms/irrigation/backyard-card.yaml dashboard/shared/cards/notification-panel-card.yaml
+irrigation,timer,timer.driveway_sprinkler_timer,,,2,dashboard/shared/cards/individual-rooms/irrigation/driveway-card.yaml dashboard/shared/cards/notification-panel-card.yaml
+irrigation,timer,timer.right_walkway_sprinkler_timer,,,2,dashboard/shared/cards/individual-rooms/irrigation/right-walkway-card.yaml dashboard/shared/cards/notification-panel-card.yaml
+laundry,automation,automation.room_presence_laundry,,,1,dashboard/shared/cards/individual-rooms/laundry/laundry-paper-row-card.yaml
+laundry,binary_sensor,binary_sensor.motion_sensor_lr_occupancy,,,1,dashboard/shared/cards/individual-rooms/laundry/laundry-details-card.yaml
+laundry,binary_sensor,binary_sensor.outdoor_door_sensor_lr_contact,,,5,dashboard/mobile/views/16-laundry.yaml dashboard/shared/cards/individual-rooms/laundry/laundry-open-entities-card.yaml dashboard/shared/cards/rooms/laundry-card-mobile.yaml dashboard/shared/cards/rooms/laundry-card-tablet.yaml dashboard/tablet/views/18-laundry.yaml
+laundry,fan,fan.laundry_room_fan,,,3,dashboard/shared/cards/individual-rooms/laundry/laundry-entities-card.yaml dashboard/shared/cards/rooms/laundry-card-mobile.yaml dashboard/shared/cards/rooms/laundry-card-tablet.yaml
+laundry,light,light.lights_lr,,,1,dashboard/shared/cards/individual-rooms/laundry/laundry-entities-card.yaml
+laundry,light,light.lights_lr_all,,,2,dashboard/shared/cards/rooms/laundry-card-mobile.yaml dashboard/shared/cards/rooms/laundry-card-tablet.yaml
+laundry,light,light.vanity_led_lr,,,1,dashboard/shared/cards/individual-rooms/laundry/laundry-entities-card.yaml
+laundry,sensor,sensor.doors_lr_count,,,2,dashboard/shared/cards/rooms/laundry-card-mobile.yaml dashboard/shared/cards/rooms/laundry-card-tablet.yaml
+laundry,sensor,sensor.fans_lr_count,,,2,dashboard/shared/cards/rooms/laundry-card-mobile.yaml dashboard/shared/cards/rooms/laundry-card-tablet.yaml
+laundry,sensor,sensor.lights_lr_count,,,3,dashboard/shared/cards/individual-rooms/laundry/laundry-entities-card.yaml dashboard/shared/cards/rooms/laundry-card-mobile.yaml dashboard/shared/cards/rooms/laundry-card-tablet.yaml
+laundry,switch,switch.adaptive_lighting_laundry,,,1,dashboard/shared/cards/individual-rooms/laundry/laundry-paper-row-card.yaml
+living-area,binary_sensor,binary_sensor.left_sofa_window_sensor_la_contact,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-open-entities-card.yaml
+living-area,binary_sensor,binary_sensor.left_tv_window_sensor_la_contact,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-open-entities-card.yaml
+living-area,binary_sensor,binary_sensor.main_sliding_door_sensor_la_contact,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-open-entities-card.yaml
+living-area,binary_sensor,binary_sensor.presence_active_la,,,2,dashboard/shared/cards/individual-rooms/living-area/living-area-paper-row-card.yaml dashboard/shared/cards/toggles-card.yaml
+living-area,binary_sensor,binary_sensor.presence_sensor_living_area,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-details-card.yaml
+living-area,binary_sensor,binary_sensor.right_sofa_window_sensor_la_contact,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-open-entities-card.yaml
+living-area,binary_sensor,binary_sensor.right_tv_window_sensor_la_contact,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-open-entities-card.yaml
+living-area,binary_sensor,binary_sensor.side_sliding_door_sensor_la_contact,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-open-entities-card.yaml
+living-area,climate,climate.living_room,,,3,dashboard/shared/cards/individual-rooms/living-area/living-area-climate-card.yaml dashboard/shared/cards/rooms/living-area-card-mobile.yaml dashboard/shared/cards/rooms/living-area-card-tablet.yaml
+living-area,group,group.doors_la,,,5,dashboard/mobile/views/08-living-area.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-open-entities-card.yaml dashboard/shared/cards/rooms/living-area-card-mobile.yaml dashboard/shared/cards/rooms/living-area-card-tablet.yaml dashboard/tablet/views/10-living-area.yaml
+living-area,group,group.windows_la,,,5,dashboard/mobile/views/08-living-area.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-open-entities-card.yaml dashboard/shared/cards/rooms/living-area-card-mobile.yaml dashboard/shared/cards/rooms/living-area-card-tablet.yaml dashboard/tablet/views/10-living-area.yaml
+living-area,input_boolean,input_boolean.kitchen_la,,,2,dashboard/shared/cards/individual-rooms/living-area/living-area-fab-button-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+living-area,input_boolean,input_boolean.lights_la,,,2,dashboard/shared/cards/individual-rooms/living-area/living-area-fab-button-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+living-area,input_boolean,input_boolean.media_la,,,2,dashboard/shared/cards/individual-rooms/living-area/living-area-fab-button-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+living-area,input_boolean,input_boolean.movie_mode,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-paper-row-card.yaml
+living-area,input_boolean,input_boolean.other_lights_la,,,2,dashboard/shared/cards/individual-rooms/living-area/living-area-fab-button-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+living-area,light,light.lights_la,,,2,dashboard/shared/cards/rooms/living-area-card-mobile.yaml dashboard/shared/cards/rooms/living-area-card-tablet.yaml
+living-area,media_player,media_player.living_room_tv,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+living-area,script,script.toggle_presence_sensor_la,,,2,dashboard/shared/cards/individual-rooms/living-area/living-area-paper-row-card.yaml dashboard/shared/cards/toggles-card.yaml
+living-area,select,select.kitchen_rangehood_fan_speed,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+living-area,select,select.kitchen_rangehood_light_level,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+living-area,sensor,sensor.doors_la_count,,,2,dashboard/shared/cards/rooms/living-area-card-mobile.yaml dashboard/shared/cards/rooms/living-area-card-tablet.yaml
+living-area,sensor,sensor.lights_la_count,,,3,dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml dashboard/shared/cards/rooms/living-area-card-mobile.yaml dashboard/shared/cards/rooms/living-area-card-tablet.yaml
+living-area,sensor,sensor.living_room_climate_mode,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-climate-card.yaml
+living-area,sensor,sensor.windows_la_count,,,2,dashboard/shared/cards/rooms/living-area-card-mobile.yaml dashboard/shared/cards/rooms/living-area-card-tablet.yaml
+living-area,switch,switch.adaptive_lighting_living_area_lights,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-paper-row-card.yaml
+living-area,switch,switch.kitchen_cabinet_led,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+living-area,switch,switch.nest_hub_switch_ktc,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+living-area,switch,switch.other_switch_ktc,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+living-area,switch,switch.table_top_led,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+living-area,switch,switch.table_top_light,,,1,dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+master-bedroom,binary_sensor,binary_sensor.door_sensor_mbr_contact,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-open-entities-card.yaml
+master-bedroom,binary_sensor,binary_sensor.left_window_sensor_mbr_contact,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-open-entities-card.yaml
+master-bedroom,binary_sensor,binary_sensor.presence_sensor_master_bedroom,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-details-card.yaml
+master-bedroom,binary_sensor,binary_sensor.right_window_sensor_mbr_contact,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-open-entities-card.yaml
+master-bedroom,binary_sensor,binary_sensor.sliding_door_sensor_mbr_contact,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-open-entities-card.yaml
+master-bedroom,binary_sensor,binary_sensor.window_sensor_mbrt_contact,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-open-entities-card.yaml
+master-bedroom,climate,climate.master_bedroom,,,3,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-climate-card.yaml dashboard/shared/cards/rooms/master-bedroom-card-mobile.yaml dashboard/shared/cards/rooms/master-bedroom-card-tablet.yaml
+master-bedroom,cover,cover.left_blackout_curtain_mbr,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,cover,cover.right_blackout_curtain_mbr,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,fan,fan.master_bathroom_fan,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,group,group.curtains_mbr,,,3,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-paper-row-card.yaml dashboard/shared/cards/rooms/master-bedroom-card-mobile.yaml dashboard/shared/cards/rooms/master-bedroom-card-tablet.yaml
+master-bedroom,group,group.doors_mbr,,,5,dashboard/mobile/views/09-master-bedroom.yaml dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-open-entities-card.yaml dashboard/shared/cards/rooms/master-bedroom-card-mobile.yaml dashboard/shared/cards/rooms/master-bedroom-card-tablet.yaml dashboard/tablet/views/11-master-bedroom.yaml
+master-bedroom,group,group.windows_mbr,,,3,dashboard/mobile/views/09-master-bedroom.yaml dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-open-entities-card.yaml dashboard/tablet/views/11-master-bedroom.yaml
+master-bedroom,input_boolean,input_boolean.kids_sleeping_together,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-paper-row-card.yaml
+master-bedroom,input_boolean,input_boolean.master_bathroom,,,2,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-fab-button-card.yaml dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,input_boolean,input_boolean.other_lights_mbr,,,2,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-fab-button-card.yaml dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,light,light.floor_led_wr,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,light,light.lights_mbr,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,light,light.lights_mbr_all,,,2,dashboard/shared/cards/rooms/master-bedroom-card-mobile.yaml dashboard/shared/cards/rooms/master-bedroom-card-tablet.yaml
+master-bedroom,light,light.lights_mbrt,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,light,light.lights_wr,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,script,script.toggle_curtain_mbr,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-paper-row-card.yaml
+master-bedroom,sensor,sensor.all_lights_mbr_count,,,2,dashboard/shared/cards/rooms/master-bedroom-card-mobile.yaml dashboard/shared/cards/rooms/master-bedroom-card-tablet.yaml
+master-bedroom,sensor,sensor.covers_mbr_count,,,2,dashboard/shared/cards/rooms/master-bedroom-card-mobile.yaml dashboard/shared/cards/rooms/master-bedroom-card-tablet.yaml
+master-bedroom,sensor,sensor.doors_mbr_count,,,2,dashboard/shared/cards/rooms/master-bedroom-card-mobile.yaml dashboard/shared/cards/rooms/master-bedroom-card-tablet.yaml
+master-bedroom,sensor,sensor.lights_mbr_count,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,sensor,sensor.lights_mbrt_count,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,sensor,sensor.lights_wr_count,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,sensor,sensor.master_bedroom_climate_mode,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-climate-card.yaml
+master-bedroom,sensor,sensor.master_bedroom_humidity,,,4,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-climate-card.yaml dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-details-card.yaml dashboard/shared/cards/rooms/master-bedroom-card-mobile.yaml dashboard/shared/cards/rooms/master-bedroom-card-tablet.yaml
+master-bedroom,sensor,sensor.master_bedroom_temperature,,,3,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-details-card.yaml dashboard/shared/cards/rooms/master-bedroom-card-mobile.yaml dashboard/shared/cards/rooms/master-bedroom-card-tablet.yaml
+master-bedroom,sensor,sensor.mbr_curtain_action,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-paper-row-card.yaml
+master-bedroom,switch,switch.adaptive_lighting_master_bedroom,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-paper-row-card.yaml
+master-bedroom,switch,switch.baby_monitor_switch_mbr,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,switch,switch.left_bedside_light_switch_mbr,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,switch,switch.master_bathroom_mirror_light,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,switch,switch.other_left_switch_mbr,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,switch,switch.other_right_switch_mbr,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,switch,switch.patio_switch_mbr,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,switch,switch.portable_heater_plug_mbrt,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,switch,switch.rey_s_watch_charger_mbr,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,switch,switch.right_bedside_light_switch_mbr,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+master-bedroom,switch,switch.towel_switch_mbrt,,,1,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+multiple-guest-room,binary_sensor,binary_sensor.door_sensor_mgr_contact,,,4,dashboard/mobile/views/12-multiple-guest-room.yaml dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-open-entities-card.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-tablet.yaml
+multiple-guest-room,binary_sensor,binary_sensor.left_window_sensor_mgr_contact,,,1,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-open-entities-card.yaml
+multiple-guest-room,binary_sensor,binary_sensor.presence_sensor_multiple_guest_room,,,1,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-details-card.yaml
+multiple-guest-room,binary_sensor,binary_sensor.right_window_sensor_mgr_contact,,,1,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-open-entities-card.yaml
+multiple-guest-room,binary_sensor,binary_sensor.windows_mgr,,,1,dashboard/mobile/views/12-multiple-guest-room.yaml
+multiple-guest-room,climate,climate.multiple_guest_room,,,3,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-climate-card.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-tablet.yaml
+multiple-guest-room,group,group.windows_mgr,,,3,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-open-entities-card.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-tablet.yaml
+multiple-guest-room,light,light.lights_mgr,,,1,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-entities-card.yaml
+multiple-guest-room,light,light.lights_mgr_scene,,,2,dashboard/shared/cards/rooms/multiple-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-tablet.yaml
+multiple-guest-room,sensor,sensor.doors_mgr_count,,,2,dashboard/shared/cards/rooms/multiple-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-tablet.yaml
+multiple-guest-room,sensor,sensor.lights_mgr_count,,,3,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-entities-card.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-tablet.yaml
+multiple-guest-room,sensor,sensor.multiple_guest_room_climate_mode,,,1,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-climate-card.yaml
+multiple-guest-room,sensor,sensor.multiple_guest_room_humidity,,,4,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-climate-card.yaml dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-details-card.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-tablet.yaml
+multiple-guest-room,sensor,sensor.multiple_guest_room_temperature,,,3,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-details-card.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-tablet.yaml
+multiple-guest-room,sensor,sensor.windows_mgr_count,,,2,dashboard/shared/cards/rooms/multiple-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-tablet.yaml
+multiple-guest-room,switch,switch.adaptive_lighting_multiple_guest_room,,,1,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-paper-row-card.yaml
+multiple-guest-room,switch,switch.other_switch_mgr,,,1,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-entities-card.yaml
+multiple-guest-room,switch,switch.phone_charger_switch_mgr,,,1,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-entities-card.yaml
+office,automation,automation.room_presence_office,,,2,dashboard/shared/cards/individual-rooms/office/office-paper-row-card.yaml dashboard/shared/cards/toggles-card.yaml
+office,binary_sensor,binary_sensor.door_sensor_or_contact,,,5,dashboard/mobile/views/14-office.yaml dashboard/shared/cards/individual-rooms/office/office-open-entities-card.yaml dashboard/shared/cards/rooms/office-room-card-mobile.yaml dashboard/shared/cards/rooms/office-room-card-tablet.yaml dashboard/tablet/views/16-office.yaml
+office,binary_sensor,binary_sensor.left_window_sensor_or_contact,,,1,dashboard/shared/cards/individual-rooms/office/office-open-entities-card.yaml
+office,binary_sensor,binary_sensor.presence_sensor_office,,,1,dashboard/shared/cards/individual-rooms/office/office-details-card.yaml
+office,binary_sensor,binary_sensor.right_window_sensor_or_contact,,,1,dashboard/shared/cards/individual-rooms/office/office-open-entities-card.yaml
+office,climate,climate.office_room,,,3,dashboard/shared/cards/individual-rooms/office/office-climate-card.yaml dashboard/shared/cards/rooms/office-room-card-mobile.yaml dashboard/shared/cards/rooms/office-room-card-tablet.yaml
+office,group,group.windows_or,,,5,dashboard/mobile/views/14-office.yaml dashboard/shared/cards/individual-rooms/office/office-open-entities-card.yaml dashboard/shared/cards/rooms/office-room-card-mobile.yaml dashboard/shared/cards/rooms/office-room-card-tablet.yaml dashboard/tablet/views/16-office.yaml
+office,sensor,sensor.doors_or_count,,,2,dashboard/shared/cards/rooms/office-room-card-mobile.yaml dashboard/shared/cards/rooms/office-room-card-tablet.yaml
+office,sensor,sensor.lights_or_count,,,3,dashboard/shared/cards/individual-rooms/office/office-entities-card.yaml dashboard/shared/cards/rooms/office-room-card-mobile.yaml dashboard/shared/cards/rooms/office-room-card-tablet.yaml
+office,sensor,sensor.office_room_climate_mode,,,1,dashboard/shared/cards/individual-rooms/office/office-climate-card.yaml
+office,sensor,sensor.office_room_humidity,,,4,dashboard/shared/cards/individual-rooms/office/office-climate-card.yaml dashboard/shared/cards/individual-rooms/office/office-details-card.yaml dashboard/shared/cards/rooms/office-room-card-mobile.yaml dashboard/shared/cards/rooms/office-room-card-tablet.yaml
+office,sensor,sensor.office_room_temperature,,,3,dashboard/shared/cards/individual-rooms/office/office-details-card.yaml dashboard/shared/cards/rooms/office-room-card-mobile.yaml dashboard/shared/cards/rooms/office-room-card-tablet.yaml
+office,sensor,sensor.windows_or_count,,,2,dashboard/shared/cards/rooms/office-room-card-mobile.yaml dashboard/shared/cards/rooms/office-room-card-tablet.yaml
+office,switch,switch.light_switch_or,,,3,dashboard/shared/cards/individual-rooms/office/office-entities-card.yaml dashboard/shared/cards/rooms/office-room-card-mobile.yaml dashboard/shared/cards/rooms/office-room-card-tablet.yaml
+office,switch,switch.mackbook_switch_or,,,1,dashboard/shared/cards/individual-rooms/office/office-entities-card.yaml
+patio,group,group.doors_otd,,,2,dashboard/shared/cards/rooms/patio-card-mobile.yaml dashboard/shared/cards/rooms/patio-card-tablet.yaml
+patio,sensor,sensor.doors_otd_count,,,2,dashboard/shared/cards/rooms/patio-card-mobile.yaml dashboard/shared/cards/rooms/patio-card-tablet.yaml
+patio,sensor,sensor.lights_otd_count,,,2,dashboard/shared/cards/rooms/patio-card-mobile.yaml dashboard/shared/cards/rooms/patio-card-tablet.yaml
+patio,switch,switch.lights_patio,,,2,dashboard/shared/cards/rooms/patio-card-mobile.yaml dashboard/shared/cards/rooms/patio-card-tablet.yaml
+scenes,automation,automation.room_presence_dining_table,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,automation,automation.room_presence_guest_bathroom_bathing,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,automation,automation.room_presence_guest_bathroom_toilet,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,automation,automation.room_presence_guest_bathroom_vanity,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,automation,automation.room_presence_kitchen,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,automation,automation.room_presence_master_bathroom,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,automation,automation.room_presence_scullery,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,automation,automation.room_presence_sofa,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,automation,automation.room_presence_wardrobe,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.baby_room_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.dining_table_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.dynamic_scene_stop,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.garage_outdoor_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.guest_bathroom_bathing_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.guest_bathroom_toilet_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.guest_bathroom_vanity_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.hallway_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.kitchen_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.master_bathroom_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.master_bedroom_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.multiple_guest_room_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.roof_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.scullery_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.single_guest_room_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.sofa_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.wall_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_boolean,input_boolean.wardrobe_dynamic_scene,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_number,input_number.dynamic_scene_brightness,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_number,input_number.dynamic_scene_interval,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.baby_room_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.dining_table_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.dynamic_scene_selected,,,3,dashboard/shared/cards/scenes/light-selector-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml dashboard/shared/templates/streamline.yaml
+scenes,input_text,input_text.garage_outdoor_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.guest_bathroom_bathing_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.guest_bathroom_toilet_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.guest_bathroom_vanity_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.hallway_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.kitchen_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.master_bathroom_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.master_bedroom_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.multiple_guest_room_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.roof_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.scullery_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.single_guest_room_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.sofa_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.wall_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,input_text,input_text.wardrobe_dynamic_scene_active,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.left_porch_light_drw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_five_hw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_four_hw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_four_sofa,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_br,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_ceiling_porch_drw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_dt,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_gbrb,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_gbrv,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_hw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_ktc,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_ktc_dt,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_left_roof_drw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_mbr,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_mbrt,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_mgr,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_outdoor_grg,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_right_roof_drw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_sgr,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_sofa,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_one_wr,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_six_hw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_three_dt,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_three_hw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_three_ktc_dt,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_three_sofa,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_br,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_ceiling_porch_drw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_dt,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_gbrb,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_gbrv,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_hw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_ktc,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_ktc_dt,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_left_roof_drw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_mbr,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_mbrt,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_mgr,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_outdoor_grg,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_right_roof_drw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_sgr,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_sofa,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.light_two_wr,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.right_porch_light_drw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.side_porch_light_drw,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.tv_table_led_la,,,1,dashboard/shared/cards/scenes/light-selector-card.yaml
+scenes,light,light.wall_light_one_grg,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,light,light.wall_light_two_grg,,,1,dashboard/shared/cards/scenes/room-selector-card.yaml
+scenes,number,number.makeup_table_led_mbr_effect_speed,,,1,dashboard/shared/cards/scenes/light-selector-card.yaml
+scenes,number,number.rey_s_table_light_or_effect_speed,,,1,dashboard/shared/cards/scenes/light-selector-card.yaml
+scenes,number,number.tv_table_led_la_effect_speed,,,1,dashboard/shared/cards/scenes/light-selector-card.yaml
+scenes,script,script.toggle_or_apply_gradient_scene,,,1,dashboard/shared/cards/scenes/light-selector-card.yaml
+scenes,select,select.makeup_table_led_mbr_gradient_scene,,,1,dashboard/shared/cards/scenes/light-selector-card.yaml
+scenes,select,select.rey_s_table_light_or_gradient_scene,,,1,dashboard/shared/cards/scenes/light-selector-card.yaml
+scenes,select,select.tv_table_led_la_gradient_scene,,,1,dashboard/shared/cards/scenes/light-selector-card.yaml
+security,alarm_control_panel,alarm_control_panel.alarmo,,,3,dashboard/mobile/views/01-overview.yaml dashboard/shared/cards/individual-rooms/security/security-entities-card.yaml dashboard/tablet/shared/alert-chips.yaml
+security,input_boolean,input_boolean.siren_alarm_momentary,,,1,dashboard/shared/cards/individual-rooms/security/security-paper-row-card.yaml
+security,input_boolean,input_boolean.siren_alarm_toggle,,,1,dashboard/shared/cards/individual-rooms/security/security-paper-row-card.yaml
+security,script,script.alarm_sound_alarm_30_seconds,,,1,dashboard/shared/cards/individual-rooms/security/security-paper-row-card.yaml
+security,script,script.alarm_sound_alarm_toggle,,,1,dashboard/shared/cards/individual-rooms/security/security-paper-row-card.yaml
+shared,automation,automation.outdoor_presence_driveway,,,2,dashboard/shared/cards/individual-rooms/driveway/driveway-paper-row-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml
+shared,automation,automation.room_presence_baby_room,,,3,dashboard/shared/cards/individual-rooms/baby-room/baby-room-paper-row-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml dashboard/shared/cards/toggles-card.yaml
+shared,automation,automation.room_presence_hallway,,,2,dashboard/shared/cards/individual-rooms/hallway/hallway-paper-row-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml
+shared,automation,automation.room_presence_master_bedroom,,,3,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-paper-row-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml dashboard/shared/cards/toggles-card.yaml
+shared,automation,automation.room_presence_multiple_guest_room,,,3,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-paper-row-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml dashboard/shared/cards/toggles-card.yaml
+shared,automation,automation.room_presence_single_guest_room,,,3,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-paper-row-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml dashboard/shared/cards/toggles-card.yaml
+shared,binary_sensor,binary_sensor.door_sensor_atc_contact,,,3,dashboard/shared/cards/individual-rooms/garage/garage-open-entities-card.yaml dashboard/shared/cards/rooms/attic-card-mobile.yaml dashboard/shared/cards/rooms/attic-card-tablet.yaml
+shared,binary_sensor,binary_sensor.door_sensor_etr_contact,,,8,dashboard/mobile/views/13-entrance.yaml dashboard/shared/cards/individual-rooms/driveway/driveway-open-entities-card.yaml dashboard/shared/cards/individual-rooms/entrance/entrance-open-entities-card.yaml dashboard/shared/cards/notification-panel-card.yaml dashboard/shared/cards/rooms/entrance-card-mobile.yaml dashboard/shared/cards/rooms/entrance-card-tablet.yaml dashboard/tablet/views/14-multiple-guest-room.yaml dashboard/tablet/views/15-entrance.yaml
+shared,binary_sensor,binary_sensor.door_sensor_grg_contact,,,5,dashboard/shared/cards/camera/garage-card-with-chips.yaml dashboard/shared/cards/individual-rooms/driveway/driveway-open-entities-card.yaml dashboard/shared/cards/individual-rooms/garage/garage-open-entities-card.yaml dashboard/shared/cards/individual-rooms/garage/garage-paper-row-card.yaml dashboard/tablet/views/01-overview.yaml
+shared,binary_sensor,binary_sensor.door_sensor_hw_contact,,,5,dashboard/mobile/views/18-hallway.yaml dashboard/shared/cards/individual-rooms/hallway/hallway-open-entities-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-open-entities-card.yaml dashboard/shared/cards/rooms/hallway-card-mobile.yaml dashboard/shared/cards/rooms/hallway-card-tablet.yaml
+shared,camera,camera.garage_camera_clear,,,2,dashboard/shared/cards/camera/garage-card.yaml dashboard/shared/cards/individual-rooms/garage/garage-camera-card.yaml
+shared,camera,camera.living_area_camera_clear,,,2,dashboard/shared/cards/camera/living-area-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-camera-card.yaml
+shared,climate,climate.heat_pump,,,13,dashboard/shared/cards/climate-graph-card.yaml dashboard/shared/cards/rooms/baby-room-card-mobile.yaml dashboard/shared/cards/rooms/baby-room-card-tablet.yaml dashboard/shared/cards/rooms/living-area-card-mobile.yaml dashboard/shared/cards/rooms/living-area-card-tablet.yaml dashboard/shared/cards/rooms/master-bedroom-card-mobile.yaml dashboard/shared/cards/rooms/master-bedroom-card-tablet.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/multiple-guest-room-card-tablet.yaml dashboard/shared/cards/rooms/office-room-card-mobile.yaml dashboard/shared/cards/rooms/office-room-card-tablet.yaml dashboard/shared/cards/rooms/single-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/single-guest-room-card-tablet.yaml
+shared,input_boolean,input_boolean.lights_mbr,,,3,dashboard/mobile/views/04-scenes-gradient.yaml dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-fab-button-card.yaml dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml
+shared,light,light.ava_bed_led,,,2,dashboard/shared/cards/individual-rooms/baby-room/baby-room-entities-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml
+shared,light,light.bed_led_mgr,,,2,dashboard/shared/cards/individual-rooms/multiple-guest-room/multiple-guest-room-entities-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml
+shared,light,light.bed_led_sgr,,,2,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-entities-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml
+shared,light,light.iyla_bed_led,,,2,dashboard/shared/cards/individual-rooms/baby-room/baby-room-entities-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml
+shared,light,light.light_gbrt,,,2,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-entities-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml
+shared,light,light.light_scr,,,2,dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml
+shared,light,light.lights_ceiling,,,3,dashboard/shared/cards/camera/driveway-card.yaml dashboard/shared/cards/camera/road-card.yaml dashboard/shared/cards/individual-rooms/driveway/driveway-lights-card.yaml
+shared,light,light.lights_dt,,,3,dashboard/shared/cards/camera/living-area-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-camera-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+shared,light,light.lights_ktc,,,3,dashboard/shared/cards/camera/living-area-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-camera-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+shared,light,light.lights_outdoor_grg,,,2,dashboard/shared/cards/camera/driveway-card.yaml dashboard/shared/cards/individual-rooms/driveway/driveway-lights-card.yaml
+shared,light,light.lights_sofa,,,3,dashboard/shared/cards/camera/living-area-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-camera-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+shared,light,light.lights_wall,,,3,dashboard/shared/cards/camera/driveway-card.yaml dashboard/shared/cards/camera/road-card.yaml dashboard/shared/cards/individual-rooms/driveway/driveway-lights-card.yaml
+shared,light,light.makeup_table_led_mbr,,,2,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml dashboard/shared/cards/scenes/light-selector-card.yaml
+shared,light,light.outdoor_light_lr,,,2,dashboard/shared/cards/camera/left-walkway-card.yaml dashboard/shared/cards/individual-rooms/laundry/laundry-entities-card.yaml
+shared,light,light.rey_s_table_light_or,,,2,dashboard/shared/cards/individual-rooms/office/office-entities-card.yaml dashboard/shared/cards/scenes/light-selector-card.yaml
+shared,light,light.vanity_led_gbrv,,,2,dashboard/shared/cards/individual-rooms/guest-bathroom/guest-bathroom-entities-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml
+shared,light,light.vanity_led_mbrt,,,2,dashboard/shared/cards/individual-rooms/master-bedroom/master-bedroom-selection-card.yaml dashboard/shared/cards/scenes/room-selector-card.yaml
+shared,script,script.garage_button_frontend,,,3,dashboard/shared/cards/camera/garage-card-with-chips.yaml dashboard/shared/cards/individual-rooms/garage/garage-paper-row-card.yaml dashboard/tablet/views/01-overview.yaml
+shared,sensor,sensor.left_walkway_camera_status,,,3,dashboard/mobile/views/05-camera.yaml dashboard/tablet/views/03-alarmo.yaml dashboard/tablet/views/04-camera.yaml
+shared,sensor,sensor.living_area_humidity,,,10,dashboard/shared/cards/individual-rooms/entrance/entrance-details-card.yaml dashboard/shared/cards/individual-rooms/hallway/hallway-details-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-climate-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-details-card.yaml dashboard/shared/cards/rooms/entrance-card-mobile.yaml dashboard/shared/cards/rooms/entrance-card-tablet.yaml dashboard/shared/cards/rooms/hallway-card-mobile.yaml dashboard/shared/cards/rooms/hallway-card-tablet.yaml dashboard/shared/cards/rooms/living-area-card-mobile.yaml dashboard/shared/cards/rooms/living-area-card-tablet.yaml
+shared,sensor,sensor.living_room_temperature,,,9,dashboard/shared/cards/individual-rooms/entrance/entrance-details-card.yaml dashboard/shared/cards/individual-rooms/hallway/hallway-details-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-details-card.yaml dashboard/shared/cards/rooms/entrance-card-mobile.yaml dashboard/shared/cards/rooms/entrance-card-tablet.yaml dashboard/shared/cards/rooms/hallway-card-mobile.yaml dashboard/shared/cards/rooms/hallway-card-tablet.yaml dashboard/shared/cards/rooms/living-area-card-mobile.yaml dashboard/shared/cards/rooms/living-area-card-tablet.yaml
+shared,sensor,sensor.outdoor_humidity,,,6,dashboard/shared/cards/individual-rooms/driveway/driveway-details-card.yaml dashboard/shared/cards/rooms/driveway-card-mobile.yaml dashboard/shared/cards/rooms/driveway-card-tablet.yaml dashboard/shared/cards/rooms/patio-card-mobile.yaml dashboard/shared/cards/rooms/patio-card-tablet.yaml dashboard/tablet/views/01-overview.yaml
+shared,sensor,sensor.outdoor_temperature,,,7,dashboard/shared/cards/climate-graph-card.yaml dashboard/shared/cards/individual-rooms/driveway/driveway-details-card.yaml dashboard/shared/cards/rooms/driveway-card-mobile.yaml dashboard/shared/cards/rooms/driveway-card-tablet.yaml dashboard/shared/cards/rooms/patio-card-mobile.yaml dashboard/shared/cards/rooms/patio-card-tablet.yaml dashboard/tablet/views/01-overview.yaml
+shared,sensor,sensor.right_driveway_camera_status,,,4,dashboard/mobile/views/05-camera.yaml dashboard/shared/cards/notification-panel-card.yaml dashboard/tablet/views/03-alarmo.yaml dashboard/tablet/views/04-camera.yaml
+shared,switch,switch.light_switch_atc,,,3,dashboard/shared/cards/individual-rooms/garage/garage-lights-card.yaml dashboard/shared/cards/rooms/attic-card-mobile.yaml dashboard/shared/cards/rooms/attic-card-tablet.yaml
+shared,switch,switch.light_switch_grg,,,3,dashboard/shared/cards/camera/garage-card.yaml dashboard/shared/cards/individual-rooms/garage/garage-camera-card.yaml dashboard/shared/cards/individual-rooms/garage/garage-lights-card.yaml
+shared,switch,switch.patio_main_switch_la,,,3,dashboard/shared/cards/camera/backyard-card.yaml dashboard/shared/cards/camera/right-walkway-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+shared,switch,switch.patio_side_switch_la,,,2,dashboard/shared/cards/camera/right-walkway-card.yaml dashboard/shared/cards/individual-rooms/living-area/living-area-selection-card.yaml
+shared,switch,switch.rear_light_switch_grg,,,4,dashboard/shared/cards/camera/garage-card.yaml dashboard/shared/cards/camera/left-walkway-card.yaml dashboard/shared/cards/individual-rooms/garage/garage-camera-card.yaml dashboard/shared/cards/individual-rooms/garage/garage-lights-card.yaml
+single-guest-room,binary_sensor,binary_sensor.door_sensor_sgr_contact,,,5,dashboard/mobile/views/11-single-guest-room.yaml dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-open-entities-card.yaml dashboard/shared/cards/rooms/single-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/single-guest-room-card-tablet.yaml dashboard/tablet/views/13-single-guest-room.yaml
+single-guest-room,binary_sensor,binary_sensor.left_window_sensor_sgr_contact,,,1,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-open-entities-card.yaml
+single-guest-room,binary_sensor,binary_sensor.presence_sensor_single_guest_room,,,1,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-details-card.yaml
+single-guest-room,binary_sensor,binary_sensor.right_window_sensor_sgr_contact,,,1,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-open-entities-card.yaml
+single-guest-room,binary_sensor,binary_sensor.windows_sgr,,,1,dashboard/mobile/views/11-single-guest-room.yaml
+single-guest-room,climate,climate.single_guest_room,,,3,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-climate-card.yaml dashboard/shared/cards/rooms/single-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/single-guest-room-card-tablet.yaml
+single-guest-room,group,group.windows_sgr,,,4,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-open-entities-card.yaml dashboard/shared/cards/rooms/single-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/single-guest-room-card-tablet.yaml dashboard/tablet/views/13-single-guest-room.yaml
+single-guest-room,light,light.lights_sgr,,,1,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-entities-card.yaml
+single-guest-room,light,light.lights_sgr_scene,,,2,dashboard/shared/cards/rooms/single-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/single-guest-room-card-tablet.yaml
+single-guest-room,sensor,sensor.doors_sgr_count,,,2,dashboard/shared/cards/rooms/single-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/single-guest-room-card-tablet.yaml
+single-guest-room,sensor,sensor.lights_sgr_count,,,3,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-entities-card.yaml dashboard/shared/cards/rooms/single-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/single-guest-room-card-tablet.yaml
+single-guest-room,sensor,sensor.single_guest_room_climate_mode,,,1,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-climate-card.yaml
+single-guest-room,sensor,sensor.single_guest_room_humidity,,,4,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-climate-card.yaml dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-details-card.yaml dashboard/shared/cards/rooms/single-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/single-guest-room-card-tablet.yaml
+single-guest-room,sensor,sensor.single_guest_room_temperature,,,3,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-details-card.yaml dashboard/shared/cards/rooms/single-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/single-guest-room-card-tablet.yaml
+single-guest-room,sensor,sensor.windows_sgr_count,,,2,dashboard/shared/cards/rooms/single-guest-room-card-mobile.yaml dashboard/shared/cards/rooms/single-guest-room-card-tablet.yaml
+single-guest-room,switch,switch.adaptive_lighting_single_guest_room,,,1,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-paper-row-card.yaml
+single-guest-room,switch,switch.other_switch_sgr,,,1,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-entities-card.yaml
+single-guest-room,switch,switch.phone_charger_switch_sgr,,,1,dashboard/shared/cards/individual-rooms/single-guest-room/single-guest-room-entities-card.yaml
+weather,binary_sensor,binary_sensor.outdoor_rain_sensor_dry,,,2,dashboard/shared/cards/weather/wind-above-30-card.yaml dashboard/shared/cards/weather/wind-below-30-card.yaml
+weather,binary_sensor,binary_sensor.outdoor_rain_sensor_water_leak,,,1,dashboard/shared/cards/weather/wind-above-30-card.yaml
+weather,sensor,sensor.24h_rainfall_summary,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.attributes,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.current_cloud_coverage,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.current_rainfall,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.current_temperature,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.current_uv_index,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.current_wind_speed,,,3,dashboard/shared/cards/weather/weather-forecast-card.yaml dashboard/shared/cards/weather/wind-above-30-card.yaml dashboard/shared/cards/weather/wind-below-30-card.yaml
+weather,sensor,sensor.daily_weather_data_google_weather,,,3,dashboard/shared/cards/weather/weather-forecast-card.yaml dashboard/shared/cards/weather/wind-above-30-card.yaml dashboard/shared/cards/weather/wind-below-30-card.yaml
+weather,sensor,sensor.forecast_wind_direction,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.geonet_nz_quakes_long_lat,,,2,dashboard/mobile/views/01-overview.yaml dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.google_weather_hourly_forecasts_full_hourly_forecast,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.home_metservice_weather_warnings,,,4,dashboard/mobile/views/01-overview.yaml dashboard/shared/cards/notification-panel-card.yaml dashboard/shared/cards/weather/weather-forecast-card.yaml dashboard/tablet/shared/alert-chips.yaml
+weather,sensor,sensor.moon_summary,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.morrinsville_college_new_zealand_air_quality_index,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.morrinsville_college_new_zealand_dominant_pollutant,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.next_rain_summary,,,2,dashboard/shared/cards/weather/weather-forecast-card.yaml dashboard/tablet/views/01-overview.yaml
+weather,sensor,sensor.temperature_sensor_otd_temperature,,,3,dashboard/shared/cards/weather/weather-forecast-card.yaml dashboard/shared/cards/weather/wind-above-30-card.yaml dashboard/shared/cards/weather/wind-below-30-card.yaml
+weather,sensor,sensor.uv_and_cloud_summary,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.volcano_rotorua,,,3,dashboard/mobile/views/01-overview.yaml dashboard/shared/cards/weather/weather-forecast-card.yaml dashboard/tablet/shared/alert-chips.yaml
+weather,sensor,sensor.volcano_taupo,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,sensor,sensor.weather_condition_icon,,,3,dashboard/shared/cards/climate-graph-card.yaml dashboard/shared/cards/weather/wind-above-30-card.yaml dashboard/shared/cards/weather/wind-below-30-card.yaml
+weather,sensor,sensor.wind_summary,,,1,dashboard/shared/cards/weather/weather-forecast-card.yaml
+weather,weather,weather.home,,,8,dashboard/mobile/views/01-overview.yaml dashboard/shared/cards/climate-graph-card.yaml dashboard/shared/cards/weather/weather-forecast-card.yaml dashboard/shared/cards/weather/wind-above-30-card.yaml dashboard/shared/cards/weather/wind-below-30-card.yaml dashboard/shared/templates/streamline.yaml dashboard/tablet/views/01-overview.yaml dashboard/tablet/views/05-calendar.yaml
